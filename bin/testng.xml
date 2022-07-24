@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Run on Chrome">
+  	<parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.bank.user.Level_10_Switch_Page"/>
+      <!-- 
+	      <class name="com.bank.user.Level_09_Page_Generator_Manager"/>
+	      <class name="com.bank.user.Level_04_Page_Object_Pattern"/>
+	      <class name="com.bank.user.Level_02_Abstract_Page_Init"/>
+	      <class name="com.bank.user.Level_05_Multiple_Brower"/>
+	      <class name="com.bank.user.Level_01_Repeat_Yourself"/>
+	      <class name="com.bank.user.Level_07_Parallel_Thread_Local"/>
+	      <class name="com.bank.user.Level_02_Abstract_Page_Entent"/>
+	      <class name="com.bank.user.Level_08_Selenium_Page_Factory"/>
+      -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Run on Chrome(failed)">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.bank.user.Level_10_Switch_Page">
+        <methods>
+          <include name="TC_03_Navigate_To_Other_Page"/>
+          <include name="TC_04_Log_Out_To_System"/>
+          <include name="TC_02_Login_To_System"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.bank.user.Level_10_Switch_Page -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
